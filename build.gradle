@@ -10,15 +10,14 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.apache.logging.log4j:log4j-core:2.15.0'
-    implementation 'org.apache.tomcat.embed:tomcat-embed-core:9.0.30'
-    implementation 'org.scala-lang:scala-library:2.13.8'
-    implementation 'org.apache.maven:apache-maven:3.3.1'
-    implementation 'org.springframework:spring-context-support:5.2.8.RELEASE'
-    implementation 'ch.qos.logback:logback-classic:1.2.7'
-
-    testImplementation platform('org.junit:junit-bom:5.9.1')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+    implementation 'org.apache.tomcat.embed:tomcat-embed-core:9.0.54'
+    implementation 'org.scala-lang:scala-library:2.13.11-M2'
+    implementation 'org.apache.maven:apache-maven:3.9.0'
+    implementation 'org.springframework:spring-context-support:5.3.8'
+    implementation 'ch.qos.logback:logback-classic:1.4.7'
+    testImplementation platform('org.junit:junit-bom:5.9.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
 }
 
 test {
